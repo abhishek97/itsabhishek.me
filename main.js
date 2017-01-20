@@ -146,7 +146,6 @@ var style = `
   
 `;  
 var highlight = false;
-skip();
 function skip()
   {
     $('style').html(style);
