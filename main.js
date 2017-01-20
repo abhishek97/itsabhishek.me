@@ -9,6 +9,12 @@
 
 
 $(function () { 
+  
+  //not ready for mobile
+  
+  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+  $('body').html("Umm, Please use a bigger screen. The thing you are trying to view is too awesome to conatin in this screen size");
+}
 
 //Print this in console as well.
 
